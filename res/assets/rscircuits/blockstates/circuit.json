@@ -1,0 +1,38 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"textures": {
+	        "circuit": "minecraft:blocks/stone_slab_top",
+	        "side": "minecraft:blocks/stone_slab_top",
+	        "capsule": "rscircuits:blocks/capsule",
+	        "cap_s": "rscircuits:blocks/capsule",
+	        "gold": "rscircuits:blocks/gold",
+	        "particle": "minecraft:blocks/stone_slab_top",
+	        "overlay": "rscircuits:blocks/overlay_normal",
+	        "overlay_combo": "rscircuits:blocks/overlay_combo"
+		},
+		"model": "rscircuits:circuit",
+		"uvlock": true,
+		"transform": "forge:default-block"
+	},
+	"variants": {
+		"normal": [{ }],
+		"facing": {
+			"down":  { },
+			"up":    { "x": 180 },
+			"north": { "x": -90 },
+			"south": { "x": 90 },
+			"west":  { "x": -90, "y": -90 },
+			"east":  { "x": -90, "y": 90 }
+		},
+		"capsule": {
+			"true":  { "model": "rscircuits:circuit_capsule_decorated" },
+			"false": { }
+		},
+		"sad": {
+			"true":  { "textures": { "circuit": "rscircuits:blocks/circuit_top_err" } },
+			"false": { }
+		},
+		"inventory": [{ "model": "rscircuits:circuit_item" }]
+	}
+}

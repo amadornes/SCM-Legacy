@@ -1,0 +1,17 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"textures": {
+	        "circuit": "rscircuits:blocks/plate",
+	        "side": "rscircuits:blocks/plate",
+	        "particle": "rscircuits:blocks/plate"
+		},
+		"model": "rscircuits:circuit",
+		"uvlock": true,
+		"transform": "forge:default-block"
+	},
+	"variants": {
+		"normal": [{ "x": 180 }],
+		"inventory": [{ "x": 180 }]
+	}
+}

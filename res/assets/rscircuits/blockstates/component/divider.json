@@ -1,0 +1,22 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"textures": {
+	        "particle": "rscircuits:blocks/pulse_on",
+	        "side": "rscircuits:blocks/plate",
+	        "top": "rscircuits:blocks/divider"
+		},
+		"model": "rscircuits:button_f",
+		"transform": "forge:default-block"
+	},
+	"variants": {
+		"normal": [{}],
+		"rotation": {
+			"0": { "y":   0 },
+			"1": { "y":  90 },
+			"2": { "y": 180 },
+			"3": { "y": 270 }
+		},
+		"inventory": [{}]
+	}
+}

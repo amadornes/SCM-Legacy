@@ -1,0 +1,19 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"textures": {
+	        "particle": "rscircuits:blocks/random_on",
+	        "base": "rscircuits:blocks/obsidian"
+		},
+		"model": "rscircuits:button",
+		"transform": "forge:default-block"
+	},
+	"variants": {
+		"normal": [{}],
+		"on": {
+			"true":  { "textures": { "btn": "rscircuits:blocks/random_on"  } },
+			"false": { "textures": { "btn": "rscircuits:blocks/random_off" } }
+		},
+		"inventory": [{}]
+	}
+}

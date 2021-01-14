@@ -1,0 +1,100 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"textures": {
+	        "circuit": "rscircuits:blocks/plate",
+	        "side": "rscircuits:blocks/plate",
+	        "base": "rscircuits:blocks/obsidian"
+		},
+		"model": "forge:item-layer",
+		"transform": "forge:default-item"
+	},
+	"variants": {
+		"normal": [{}],
+		"inventory_pile_of_redstone": [ { "textures": { "layer0": "rscircuits:items/redstone_pile" } } ],
+		"inventory_quartz_resonator": [ {
+			"model": "rscircuits:button",
+			"transform": "forge:default-block",
+			"textures": { "btn": "rscircuits:blocks/delay_on" }
+		} ],
+		"inventory_ender_pulsar": [ {
+			"model": "rscircuits:button",
+			"transform": "forge:default-block",
+			"textures": { "btn": "rscircuits:blocks/pulse_on" }
+		} ],
+		"inventory_energized_glowstone": [ {
+			"model": "rscircuits:button",
+			"transform": "forge:default-block",
+			"textures": { "btn": "rscircuits:blocks/random_on" }
+		} ],
+		"inventory_tiny_lamp": [ {
+			"model": "rscircuits:button",
+			"transform": "forge:default-block",
+			"textures": { "btn": "rscircuits:blocks/lamp_on" }
+		} ],
+		"inventory_pile_of_glowstone": [ { "textures": { "layer0": "rscircuits:items/glowstone_pile" } } ],
+		"inventory_tiny_plate": [ { "model": "rscircuits:plate_item", "transform": "forge:default-block" } ],
+		"inventory_pile_of_glowing_redstone": [ { "textures": { "layer0": "rscircuits:items/glowing_redstone_pile" } } ],
+		"inventory_redstone_stick": [ { "textures": { "layer0": "rscircuits:items/redstone_stick" } } ],
+		"inventory_paint_brush": [ { "textures": { "layer0": "rscircuits:items/paint_brush" } } ],
+		"inventory_palette": [ { "textures": { "layer0": "rscircuits:items/palette" } } ],
+		"inventory_tiny_plate_noncond": [ { "model": "rscircuits:plate_item", "transform": "forge:default-block",
+									"textures": { "circuit": "rscircuits:blocks/plate_noncond" } } ],
+		"inventory_tiny_bundled_wire": [{
+			"textures": {
+		        "wire": "rscircuits:blocks/wire_bundled_cross",
+		        "tops": "rscircuits:blocks/wire_bundled_straight",
+		        "tops2": "rscircuits:blocks/wire_bundled_straight_2",
+		        "tops3": "rscircuits:blocks/wire_bundled_straight_3",
+		        "side_r": "rscircuits:blocks/wire_bundled_side_r",
+		        "side_b": "rscircuits:blocks/wire_bundled_side_b",
+		        "particle": "rscircuits:blocks/wire",
+		        "base": "rscircuits:blocks/base"
+			},
+			"model": "rscircuits:bundled_wire_center_item",
+			"transform": "forge:default-block",
+			"submodel": {
+				"back":  { "model": "rscircuits:bundled_wire_connection_item", "uvlock": true, "y":   90 },
+				"front": { "model": "rscircuits:bundled_wire_connection2_item", "uvlock": true, "y": 270 },
+				"right": { "model": "rscircuits:bundled_wire_connection2_item", "uvlock": true           },
+				"left":  { "model": "rscircuits:bundled_wire_connection_item", "uvlock": true, "y":  180 }
+			}
+		}],
+		"inventory_bundled_stick": [ { "textures": { "layer0": "rscircuits:items/bundled_stick" } } ],
+		"inventory_tiny_lamp_segmented": [ {
+			"model": "rscircuits:component/panel_big_item",
+			"transform": "forge:default-block",
+			"textures": { "side": "rscircuits:blocks/7sd_base", "top":  "rscircuits:blocks/7sd_base" }
+		} ],
+		"inventory_adder": [ {
+			"model": "rscircuits:button_f_item",
+			"transform": "forge:default-block",
+			"textures": { "side": "rscircuits:blocks/plate", "top":  "rscircuits:blocks/adder" }
+		} ],
+		"inventory_subtractor": [ {
+			"model": "rscircuits:button_f_item",
+			"transform": "forge:default-block",
+			"textures": { "side": "rscircuits:blocks/plate", "top":  "rscircuits:blocks/subtractor" }
+		} ],
+		"inventory_multiplier": [ {
+			"model": "rscircuits:button_f_item",
+			"transform": "forge:default-block",
+			"textures": { "side": "rscircuits:blocks/plate", "top":  "rscircuits:blocks/multiplier" }
+		} ],
+		"inventory_divider": [ {
+			"model": "rscircuits:button_f_item",
+			"transform": "forge:default-block",
+			"textures": { "side": "rscircuits:blocks/plate", "top":  "rscircuits:blocks/divider" }
+		} ],
+		"inventory_constant": [ {
+			"model": "rscircuits:button_f_item",
+			"transform": "forge:default-block",
+			"textures": { "side": "rscircuits:blocks/plate", "top":  "rscircuits:blocks/constant" }
+		} ],
+		"inventory_inv_scanner": [ {
+			"model": "minecraft:cube_all",
+			"transform": "forge:default-block",
+			"textures": { "all":  "rscircuits:blocks/inv_scanner" }
+		} ]
+	}
+}

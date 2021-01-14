@@ -1,0 +1,18 @@
+{
+    "textures": {
+    },
+    "elements":[
+    	{
+			"from": [ 0, 0, 7 ],
+			"to":   [ 7, 2, 9 ],
+			"faces": {
+				"down":  { "texture": "#wire", "cullface": "down" },
+				"up":    { "texture": "#wire"                     },
+				"north": { "texture": "#wire"                     },
+				"south": { "texture": "#wire"                     },
+				"west":  { "texture": "#wire"                     },
+				"east":  { "texture": "#wire"                     }
+			}
+    	}
+    ]
+}

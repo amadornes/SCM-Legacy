@@ -1,0 +1,13 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"model": "forge:item-layer",
+		"transform": "forge:default-item"
+	},
+	"variants": {
+		"inventory_blueprint_empty": [ { "textures": { "layer0" : "rscircuits:items/blueprint_empty" } } ],
+		"inventory_blueprint":       [ { "textures": { "layer0" : "rscircuits:items/blueprint"       } } ],
+		"inventory_redprint_empty":  [ { "textures": { "layer0" : "rscircuits:items/redprint_empty"  } } ],
+		"inventory_redprint":        [ { "textures": { "layer0" : "rscircuits:items/redprint"        } } ]
+	}
+}

@@ -1,0 +1,14 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"textures": {
+	        "particle": "rscircuits:blocks/delay_on"
+		},
+		"model": "minecraft:daylight_detector",
+		"transform": "forge:default-block"
+	},
+	"variants": {
+		"normal": [{}],
+		"inventory": [{}]
+	}
+}

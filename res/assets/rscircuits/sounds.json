@@ -1,0 +1,17 @@
+{
+  "component.place": {
+    "category": "block",
+    "subtitle": "subtitle.rscircuits:boop",
+    "sounds": [ "rscircuits:place" ]
+  },
+  "component.place.soaryn": {
+    "category": "block",
+    "subtitle": "subtitle.rscircuits:xycraaaaft",
+    "sounds": [ "rscircuits:xycraft" ]
+  },
+  "component.place.dire": {
+    "category": "block",
+    "subtitle": "subtitle.rscircuits:helloeveryone",
+    "sounds": [ "rscircuits:dw20" ]
+  }
+}

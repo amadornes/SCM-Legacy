@@ -1,0 +1,17 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"textures": {
+			"side": "minecraft:blocks/log_oak",
+			"post": "minecraft:blocks/log_oak",
+			"top": "minecraft:blocks/log_oak_top"
+		},
+		"model": "rscircuits:component/post",
+		"uvlock": true,
+		"transform": "forge:default-block"
+	},
+	"variants": {
+		"normal": [{}],
+		"inventory": [{}]
+	}
+}

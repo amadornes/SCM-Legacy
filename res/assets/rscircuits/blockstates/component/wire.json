@@ -1,0 +1,37 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"textures": {
+	        "wire": "rscircuits:blocks/wire",
+	        "particle": "rscircuits:blocks/wire",
+	        "base": "rscircuits:blocks/base"
+		},
+		"model": "rscircuits:wire_center",
+		"uvlock": true,
+		"transform": "forge:default-block"
+	},
+	"variants": {
+		"normal": [{}],
+		"right": {
+			"output":        { "submodel": { "right": { "model": "rscircuits:wire_anode",   "uvlock": true } } },
+			"input":         { "submodel": { "right": { "model": "rscircuits:wire_cathode", "uvlock": true } } },
+			"none":          {  }
+		},
+		"front": {
+			"output":        { "submodel": { "front": { "model": "rscircuits:wire_anode",   "y": 270, "uvlock": true } } },
+			"input":         { "submodel": { "front": { "model": "rscircuits:wire_cathode", "y": 270, "uvlock": true } } },
+			"none":          {  }
+		},
+		"left": {
+			"output":        { "submodel": { "left": { "model": "rscircuits:wire_anode",   "y": 180, "uvlock": true } } },
+			"input":         { "submodel": { "left": { "model": "rscircuits:wire_cathode", "y": 180, "uvlock": true } } },
+			"none":          {  }
+		},
+		"back": {
+			"output":        { "submodel": { "back": { "model": "rscircuits:wire_anode",   "y": 90, "uvlock": true } } },
+			"input":         { "submodel": { "back": { "model": "rscircuits:wire_cathode", "y": 90, "uvlock": true } } },
+			"none":          {  }
+		},
+		"inventory":         [ { } ]
+	}
+}

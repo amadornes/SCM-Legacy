@@ -1,0 +1,62 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"textures": {
+	        "side": "rscircuits:blocks/7sd_base",
+	        "top":  "rscircuits:blocks/7sd_base",
+	        "top2": "rscircuits:blocks/7sd_center",
+	        "top3": "rscircuits:blocks/7sd_con_s"
+		},
+		"model": "rscircuits:component/panel_big"
+	},
+	"variants": {
+		"normal": [{}],
+		"on": {
+			"true":  {  },
+			"false": {  }
+		},
+		"right": {
+			"true":  { "submodel": { "right": { "model": "rscircuits:component/panel_big.top2"            } } },
+			"false": {  }
+		},
+		"front": {
+			"true":  { "submodel": { "front": { "model": "rscircuits:component/panel_big.top2",  "y": 270 } } },
+			"false": {  }
+		},
+		"left": {
+			"true":  { "submodel": { "left":  { "model": "rscircuits:component/panel_big.top2",  "y": 180 } } },
+			"false": {  }
+		},
+		"back": {
+			"true":  { "submodel": { "back":  { "model": "rscircuits:component/panel_big.top2",  "y":  90 } } },
+			"false": {  }
+		},
+		"back=false,front=false,left=false,on=true,right=false": [{
+			"submodel": { "overl": { "model": "rscircuits:component/panel_big.top" } }
+		}],
+		"back=true,front=true,left=false,on=true,right=false": [{
+			"submodel": { "overl": { "model": "rscircuits:component/panel_big.top" } },
+			"textures": { "top3": "rscircuits:blocks/7sd_straight" }
+		}],
+		"back=false,front=false,left=true,on=true,right=true": [{
+			"submodel": { "overl": { "model": "rscircuits:component/panel_big.top" } },
+			"textures": { "top3": "rscircuits:blocks/7sd_straight" }
+		}],
+		"back=false,front=false,left=false,on=true,right=true": [{
+			"submodel": { "right": { "model": "rscircuits:component/panel_big.top2"            } },
+			"textures": { "top3": "rscircuits:blocks/7sd_con" }
+		}],
+		"back=false,front=true,left=false,on=true,right=false": [{
+			"submodel": { "front": { "model": "rscircuits:component/panel_big.top2",  "y": 270 } },
+			"textures": { "top3": "rscircuits:blocks/7sd_con" }
+		}],
+		"back=false,front=false,left=true,on=true,right=false": [{
+			"submodel": { "left":  { "model": "rscircuits:component/panel_big.top2",  "y": 180 } },
+			"textures": { "top3": "rscircuits:blocks/7sd_con" }
+		}],
+		"back=true,front=false,left=false,on=true,right=false": [{
+			"submodel": { "back":  { "model": "rscircuits:component/panel_big.top2",  "y":  90 } },
+			"textures": { "top3": "rscircuits:blocks/7sd_con" }
+		}]
+	}
+}

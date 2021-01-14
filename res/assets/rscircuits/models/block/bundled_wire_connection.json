@@ -1,0 +1,18 @@
+{
+    "textures": {
+    },
+    "elements":[
+    	{
+			"from": [  0,  0,  2 ],
+			"to":   [  2,  4, 14 ],
+			"faces": {
+				"down":  { "texture": "#tops", "cullface": "down" },
+				"up":    { "texture": "#tops"                     },
+				"north": { "texture": "#side_r"                   },
+				"south": { "texture": "#side_b"                   },
+				"west":  { "texture": "#tops3"                    },
+				"east":  { "texture": "#tops3"                    }
+			}
+    	}
+    ]
+}

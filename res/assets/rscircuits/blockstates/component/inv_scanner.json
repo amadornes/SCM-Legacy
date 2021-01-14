@@ -1,0 +1,15 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"textures": {
+	        "all": "rscircuits:blocks/inv_scanner"
+		},
+		"model": "minecraft:cube_all",
+		"uvlock": true,
+		"transform": "forge:default-block"
+	},
+	"variants": {
+		"normal": [{ }],
+		"inventory": [{ }]
+	}
+}

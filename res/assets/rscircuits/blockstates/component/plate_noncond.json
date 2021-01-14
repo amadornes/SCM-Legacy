@@ -1,0 +1,30 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"textures": {
+	        "circuit": "rscircuits:blocks/plate_noncond",
+	        "side": "rscircuits:blocks/plate_noncond_side",
+	        "particle": "rscircuits:blocks/plate_noncond"
+		},
+		"model": "rscircuits:circuit",
+		"uvlock": true,
+		"transform": "forge:default-block"
+	},
+	"variants": {
+		"mode": {
+			"0": { "x": 180, "textures": {
+				"circuit": "rscircuits:blocks/plate_noncond",
+				"side": "rscircuits:blocks/plate_noncond_side"
+			} },
+			"1": { "x": 180, "textures": {
+				"circuit": "rscircuits:blocks/plate_noncond_up",
+				"side": "rscircuits:blocks/plate_noncond_up_side"
+			} },
+			"2": { "x": 180, "textures": {
+				"circuit": "rscircuits:blocks/plate_noncond_down",
+				"side": "rscircuits:blocks/plate_noncond_down_side"
+			} }
+		},
+		"inventory": [{ "x": 180 }]
+	}
+}

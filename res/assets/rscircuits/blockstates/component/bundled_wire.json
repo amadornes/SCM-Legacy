@@ -1,0 +1,73 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"textures": {
+	        "wire": "rscircuits:blocks/wire_bundled_cross",
+	        "tops": "rscircuits:blocks/wire_bundled_straight",
+	        "tops2": "rscircuits:blocks/wire_bundled_straight_2",
+	        "tops3": "rscircuits:blocks/wire_bundled_straight_3",
+	        "side_r": "rscircuits:blocks/wire_bundled_side_r",
+	        "side_b": "rscircuits:blocks/wire_bundled_side_b",
+	        "particle": "rscircuits:blocks/wire",
+	        "base": "rscircuits:blocks/base"
+		},
+		"model": "rscircuits:bundled_wire_center",
+		"uvlock": true
+	},
+	"variants": {
+		"right": {
+			"true":  { "submodel": { "right": { "model": "rscircuits:bundled_wire_connection2", "uvlock": true           } } },
+			"false": {  }
+		},
+		"front": {
+			"true":  { "submodel": { "front": { "model": "rscircuits:bundled_wire_connection2", "uvlock": true, "y": 270 } } },
+			"false": {  }
+		},
+		"left": {
+			"true":  { "submodel": { "left":  { "model": "rscircuits:bundled_wire_connection", "uvlock": true, "y": 180 } } },
+			"false": {  }
+		},
+		"back": {
+			"true":  { "submodel": { "back":  { "model": "rscircuits:bundled_wire_connection", "uvlock": true, "y":  90 } } },
+			"false": {  }
+		},
+		"back=true,front=true,left=false,right=false": [{
+			"submodel": {
+				"back":  { "model": "rscircuits:bundled_wire_connection", "uvlock": true, "y":  90 },
+				"front": { "model": "rscircuits:bundled_wire_connection2", "uvlock": true, "y": 270 }
+			},
+			"textures": { "wire": "#tops" }
+		}],
+		"back=true,front=false,left=false,right=false": [{
+			"submodel": {
+				"back":  { "model": "rscircuits:bundled_wire_connection", "uvlock": true, "y":  90 }
+			},
+			"textures": { "wire": "#tops" }
+		}],
+		"back=false,front=true,left=false,right=false": [{
+			"submodel": {
+				"front": { "model": "rscircuits:bundled_wire_connection2", "uvlock": true, "y": 270 }
+			},
+			"textures": { "wire": "#tops" }
+		}],
+		"back=false,front=false,left=true,right=true": [{
+			"submodel": {
+				"right": { "model": "rscircuits:bundled_wire_connection2", "uvlock": true           },
+				"left":  { "model": "rscircuits:bundled_wire_connection", "uvlock": true, "y": 180 }
+			},
+			"textures": { "wire": "#tops2" }
+		}],
+		"back=false,front=false,left=false,right=true": [{
+			"submodel": {
+				"right": { "model": "rscircuits:bundled_wire_connection2", "uvlock": true           }
+			},
+			"textures": { "wire": "#tops2" }
+		}],
+		"back=false,front=false,left=true,right=false": [{
+			"submodel": {
+				"left":  { "model": "rscircuits:bundled_wire_connection", "uvlock": true, "y": 180 }
+			},
+			"textures": { "wire": "#tops2" }
+		}]
+	}
+}

@@ -1,0 +1,16 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"textures": {
+	        "particle": "rscircuits:blocks/pulse_on",
+	        "side": "rscircuits:blocks/note_side",
+	        "top": "rscircuits:blocks/note"
+		},
+		"model": "rscircuits:button_f2",
+		"transform": "forge:default-block"
+	},
+	"variants": {
+		"normal": [{}],
+		"inventory": [{}]
+	}
+}

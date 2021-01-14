@@ -1,0 +1,20 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"transform": "forge:default-block"
+	},
+	"variants": {
+		"normal": [{}],
+		"on": {
+			"true":  { "model": "minecraft:lever" },
+			"false": { "model": "minecraft:lever_off" }
+		},
+		"rotation": {
+			"0": { "y":   0 },
+			"1": { "y":  90 },
+			"2": { "y": 180 },
+			"3": { "y": 270 }
+		},
+		"inventory": [{}]
+	}
+}

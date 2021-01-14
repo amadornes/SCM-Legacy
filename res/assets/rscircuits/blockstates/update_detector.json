@@ -1,0 +1,29 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"textures": {
+	        "front": "rscircuits:blocks/update_detector_front",
+	        "side": "rscircuits:blocks/update_detector_side",
+	        "back": "rscircuits:blocks/update_detector_back",
+	        "particle": "rscircuits:blocks/update_detector_side"
+		},
+		"model": "rscircuits:update_detector",
+		"transform": "forge:default-block"
+	},
+	"variants": {
+		"normal": [{ }],
+		"facing": {
+			"down":  { },
+			"up":    { "x": 180 },
+			"north": { "x": -90 },
+			"south": { "x": 90 },
+			"west":  { "x": -90, "y": -90 },
+			"east":  { "x": -90, "y": 90 }
+		},
+		"on": {
+			"true":  { },
+			"false": { }
+		},
+		"inventory": [{  }]
+	}
+}

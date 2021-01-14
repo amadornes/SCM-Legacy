@@ -1,0 +1,20 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"textures": {
+	        "circuit": "minecraft:blocks/stone_slab_top",
+	        "side": "minecraft:blocks/stone_slab_top",
+	        "capsule": "rscircuits:blocks/capsule",
+	        "cap_s": "rscircuits:blocks/capsule",
+	        "gold": "rscircuits:blocks/gold",
+	        "particle": "minecraft:blocks/stone_slab_top"
+		},
+		"model": "rscircuits:circuit_capsule",
+		"uvlock": true,
+		"transform": "forge:default-block"
+	},
+	"variants": {
+		"normal": [{ }],
+		"inventory": [{ "model": "rscircuits:circuit_item" }]
+	}
+}

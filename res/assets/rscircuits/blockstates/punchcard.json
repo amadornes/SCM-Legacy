@@ -1,0 +1,10 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"model": "forge:item-layer",
+		"transform": "forge:default-item"
+	},
+	"variants": {
+		"inventory": [ { "textures": { "layer0" : "rscircuits:items/punchcard" } } ]
+	}
+}

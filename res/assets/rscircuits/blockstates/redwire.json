@@ -1,0 +1,40 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"textures": {
+	        "wire": "rscircuits:blocks/redwire",
+	        "particle": "rscircuits:blocks/redwire"
+		},
+		"model": "rscircuits:redwire_center",
+		"uvlock": true,
+		"transform": "forge:default-block"
+	},
+	"variants": {
+		"multipart": [{}],
+		"front": {
+			"true":  { "submodel": { "front": { "model": "rscircuits:redwire_side"          } } },
+			"false": {  }
+		},
+		"back": {
+			"true":  { "submodel": { "back": { "model": "rscircuits:redwire_side", "y": 180 } } },
+			"false": {  }
+		},
+		"left": {
+			"true":  { "submodel": { "left": { "model": "rscircuits:redwire_side", "y": 270 } } },
+			"false": {  }
+		},
+		"right": {
+			"true":  { "submodel": { "right": { "model": "rscircuits:redwire_side", "y": 90 } } },
+			"false": {  }
+		},
+		"inventory": [{
+			"model": "rscircuits:redwire_center_item",
+			"submodel": {
+				"front": { "model": "rscircuits:redwire_side_item"           },
+				"back":  { "model": "rscircuits:redwire_side_item", "y": 180 },
+				"left":  { "model": "rscircuits:redwire_side_item", "y": 270 },
+				"right": { "model": "rscircuits:redwire_side_item", "y":  90 }
+			}
+		}]
+	}
+}
